@@ -24,7 +24,8 @@ public class GameManager : MonoBehaviour {
             whiteHorse.GetComponent<Movement2>().enabled = false;
             brownHorse.GetComponent<Movement>().enabled = false;
             finishCamera.SetActive(true);
-            StartCoroutine(AskReset());
+          //  StartCoroutine(AskReset());
+            StartCoroutine(forceReset());
         }
 
     }
@@ -34,11 +35,8 @@ public class GameManager : MonoBehaviour {
         if (Input.GetKey("r")) {
             Restart();
         }
-        if (Input.GetKey("m")) {
+        if(Input.GetKey("m")) {
             SceneManager.LoadScene("MainMenu");
-        }
-        if (Input.GetKey("a") && Input.GetKey(KeyCode.LeftArrow) && isActive) {
-            Restart();
         }
         if (Input.GetKey("d") && Input.GetKey(KeyCode.RightArrow) && isActive) {
             SceneManager.LoadScene("MainMenu");
@@ -53,5 +51,10 @@ public class GameManager : MonoBehaviour {
         yield return new WaitForSeconds(3);
         askInstructions.SetActive(true);
         isActive = true;
+    }
+
+    IEnumerator forceReset() {
+        yield return new WaitForSeconds(7);
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -18,7 +18,7 @@ public class MainMenuControl : MonoBehaviour
     }
 
     IEnumerator Wait() {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         SceneManager.LoadScene("Game");
     }
 }

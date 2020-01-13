@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 57
+  controlID: 54
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 58
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 59
+  controlID: 56
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,19 +337,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\User\Desktop\Unity Projects\Rocking Horse Race
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a2e0000
-    m_LastClickedID: 11802
+    m_SelectedIDs: fe2c0000
+    m_LastClickedID: 11518
     m_ExpandedIDs: 00000000922c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -501,21 +501,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 50e3ffff86e3ffff90e3ffffb8e3ffff54e5ffff88e5ffff92e5ffffbae5ffffbce7ffff26e8ffff5ae8ffff88e8ffff8ce8ffff22eaffff56eaffff84eaffff88eaffffdeeeffff12efffff40efffff44efffff38f2ffff26f4ffff5af4ffff64f4ffff8cf4ffffd6f6ffff0cf7ffffaaf7ffffd8f7ffff78fbffff9a390000ba3e0000b2400000e6440000f2440000604800006c480000d84d0000
+      m_ExpandedIDs: d8f7ffff0ef8ffffacf8ffffdaf8ffff54fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas Ask Instructions
-        m_OriginalName: Canvas Ask Instructions
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 19928
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -561,9 +561,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 23.062386, y: 6.2473793, z: 16.27686}
+    m_Target: {x: 21.260906, y: 3.8183322, z: 5.596273}
     speed: 2
-    m_Value: {x: 23.062386, y: 6.2473793, z: 16.27686}
+    m_Value: {x: 21.260906, y: 3.8183322, z: 5.596273}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.01909969, y: 0.68991673, z: 0.018220812, w: 0.72341573}
+    m_Target: {x: -0.33502996, y: -0.04265299, z: 0.01519153, w: -0.94112647}
     speed: 2
-    m_Value: {x: -0.018014448, y: 0.68993914, z: 0.0171858, w: 0.72343916}
+    m_Value: {x: -0.3350276, y: -0.04265269, z: 0.015191423, w: -0.94111985}
   m_Size:
     m_Target: 33.74843
     speed: 2
-    m_Value: 33.748966
+    m_Value: 33.74843
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -617,7 +617,7 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.007828193, y: 0.57913893, z: -0.0055570826, w: 0.81517965}
+  m_LastSceneViewRotation: {x: -0.01909969, y: 0.68991673, z: 0.018220812, w: 0.72341573}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -673,7 +673,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
